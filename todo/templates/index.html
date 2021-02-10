@@ -1,0 +1,32 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>Index</title>
+{% endblock title %}
+
+ {% block content %}
+<div class="container">
+	<div class="row mt-5">
+		<div class= "col-lg-4">
+			<img src="{% static 'images/a.jpg' %}" alt="Error" height="360" width="300">
+		</div>
+
+		<div class= "col-lg-4">
+			<img src="{% static 'images/b.jpg' %}" alt="Error" height="360" width="300">
+		</div>
+  
+
+  		<div class= "col-lg-4">
+  			<img src="{% static 'images/c.jpg' %}" alt="Error" height="360" width="300">
+		</div>
+	</div>
+		<div class="row mt-5">
+			<div class="col-md-6 offset-md-3">
+				<center><p class="h1">Neymar's father denies reports </p></center>
+				<center><p class="h2">Neymar's father denies reports he is heading</p></center>
+				<center><p class="h5">Neymar's father denies reports he is heading to Barcelona today</p></center>
+			</div>
+		</div>
+	</div>
+ {% endblock content %}
